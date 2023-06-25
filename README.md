@@ -6,7 +6,6 @@ Donc imaginons que nous mesurons une pression de **177 millibars/hectopascals** 
 
 On utilise la formule suivante → **Altitude (en [ft.](https://fr.wikipedia.org/wiki/Pied_(unit%C3%A9)))** :
 ![Formule permettant de convertir une pression statique mesurée en une altitude](https://romainmellaza.fr/img/autonomous-landing/static-pressure-equation.png)
-
 En y injectant notre valeur de 177 millibars, on obtient une altitude d’environ **41 000 pieds.** Le pied et le mile nautique sont les unités internationales de longueurs utilisées dans le secteur aéronautique, mais pour simplifier la compréhension de cette présentation **nous utiliserons le mètre à partir de maintenant.**
 
 On doit donc convertir notre résultat de **41 000 pieds en m, en multipliant cette valeur par 0.3048, ce qui nous permet d’obtenir une altitude d’environ 12 500 mètres !**
@@ -18,5 +17,4 @@ Pour cela il faut représenter **un triangle rectangle où, tout d’abord, notr
 
 En utilisant une relation trigonométrique, on calcule la distance recherchée via la formule suivante :
 ![Formule permettant d’obtenir la distance (au niveau du sol) entre l’aéronef et son point de toucher](https://romainmellaza.fr/img/autonomous-landing/distance-GPS-altitude.png)
-
 **En l'occurrence, avec notre altitude de 12 500 m calculé, on peut estimer que notre Airbus A350 doit entamer sa descente lorsqu’il se situera à 238 514 m de son point de toucher sur la piste.**
